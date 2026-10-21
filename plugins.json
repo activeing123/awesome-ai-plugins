@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-21",
-  "total": 963,
+  "total": 971,
   "platforms": [
     "codex",
     "grok",
@@ -2160,6 +2160,20 @@
       ]
     },
     {
+      "name": "Usage Engineer",
+      "url": "https://github.com/noamshorts22-prog/usage-engineer",
+      "owner": "noamshorts22-prog",
+      "repo": "usage-engineer",
+      "description": "Skill and zero-dependency local CLI that compacts long logs, stops identical retries, checks stale project maps and audits Codex token usage.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/noamshorts22-prog/usage-engineer/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Velith",
       "url": "https://github.com/epicsagas/Velith",
       "owner": "epicsagas",
@@ -3456,6 +3470,22 @@
       ]
     },
     {
+      "name": "LLMSlim",
+      "url": "https://github.com/Thanatos9404/llmslim",
+      "owner": "Thanatos9404",
+      "repo": "llmslim",
+      "description": "Long-term memory for Codex with no LLM in the loop: a local MCP server stores messages word for word in SQLite and recalls the ones that answer a question within a token budget.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Thanatos9404/llmslim/HEAD/plugins/llmslim/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex",
+        "mcp"
+      ],
+      "installation_url": "https://github.com/Thanatos9404/llmslim#readme"
+    },
+    {
       "name": "LMCP",
       "url": "https://github.com/colibird-ai/local-mcp-releases",
       "owner": "colibird-ai",
@@ -4548,6 +4578,20 @@
       ]
     },
     {
+      "name": "Global Engineering Standards",
+      "url": "https://github.com/Enki-DEV-expert/engineering-standards",
+      "owner": "Enki-DEV-expert",
+      "repo": "engineering-standards",
+      "description": "Twelve engineering standards and six Claude Code and Codex skills for security, privacy, cost and architecture, installable with `npm install -g @enki-dev-expert/global-engineering-standards`",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/Enki-DEV-expert/engineering-standards#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "image-use",
       "url": "https://github.com/leeguooooo/image-use",
       "owner": "leeguooooo",
@@ -4585,6 +4629,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/andrea-magni/MARS#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "max-skills",
+      "url": "https://github.com/vasinl124/max-skills",
+      "owner": "vasinl124",
+      "repo": "max-skills",
+      "description": "Agent skills for Claude Code and Codex that run your app locally to screenshot every screen a pull request changes as before/after pairs with the changes boxed, record a demo video of the PR's flow, and write a short Slack-ready summary, posting the media into the PR description with gh",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/vasinl124/max-skills#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -8410,6 +8468,20 @@
       "installation_url": "https://github.com/BrantonLiu/promptiff#readme"
     },
     {
+      "name": "proof-of-done",
+      "url": "https://github.com/WST2002/claude-code-skills",
+      "owner": "WST2002",
+      "repo": "claude-code-skills",
+      "description": "Claude Code plugin that blocks the agent from finishing after code changes until tests, build or lint pass after the last edit, rejecting hidden exit codes, runs that executed 0 tests and flaky pass-after-fail reruns (`/plugin install proof-of-done@claude-code-skills`)",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/WST2002/claude-code-skills/HEAD/plugins/proof-of-done/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Prove-It Mini",
       "url": "https://github.com/OlegTestov/prove-it-mini",
       "owner": "OlegTestov",
@@ -9552,6 +9624,20 @@
       ]
     },
     {
+      "name": "VibeRaven",
+      "url": "https://github.com/ohad6k/VibeRaven",
+      "owner": "ohad6k",
+      "repo": "VibeRaven",
+      "description": "Skill pack and plugin that give coding agents architecture, provider and release context, with repository check-and-fix workflows for Vercel and Supabase apps",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ohad6k/VibeRaven/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Web Search MCP",
       "url": "https://github.com/sydasif/web-search-mcp",
       "owner": "sydasif",
@@ -9960,6 +10046,20 @@
       "installation_url": "https://github.com/auten-ai/auten-mcp#readme",
       "ecosystems": [
         "mcp"
+      ]
+    },
+    {
+      "name": "authority.md",
+      "url": "https://github.com/gareth-hoyle/authority-md-plugin",
+      "owner": "gareth-hoyle",
+      "repo": "authority-md-plugin",
+      "description": "MCP server and Agent Skills: search 640+ thinking frameworks drawn from notable thinkers' documented work, plus task Tools and Playbooks, from any MCP client, with a framework-finder skill and a free Sherlock Holmes deduction skill",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/gareth-hoyle/authority-md-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
@@ -12488,6 +12588,20 @@
       "source": "awesome-ai-plugins",
       "platform": "grok",
       "install_url": "https://raw.githubusercontent.com/galleonlabs/hypergrok-trading-desk/HEAD/.grok-plugin/plugin.json",
+      "ecosystems": [
+        "grok"
+      ]
+    },
+    {
+      "name": "ppl",
+      "url": "https://github.com/ppl-crm/ppl-grok-plugin",
+      "owner": "ppl-crm",
+      "repo": "ppl-grok-plugin",
+      "description": "Connects Grok to ppl, a personal CRM for humans with AI agents, through its hosted MCP server at https://withppl.com/mcp (OAuth) for contacts, notes, reminders and relationship memory; free beta at https://withppl.com/register",
+      "category": "Grok Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "grok",
+      "install_url": "https://raw.githubusercontent.com/ppl-crm/ppl-grok-plugin/HEAD/.grok-plugin/plugin.json",
       "ecosystems": [
         "grok"
       ]

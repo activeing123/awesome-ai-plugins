@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-20",
-  "total": 955,
+  "last_updated": "2026-10-21",
+  "total": 963,
   "platforms": [
     "codex",
     "grok",
@@ -3908,7 +3908,7 @@
       "url": "https://github.com/jingjing2222/rust-reverse-engineering-skill",
       "owner": "jingjing2222",
       "repo": "rust-reverse-engineering-skill",
-      "description": "Reverse engineer Rust binaries and libraries: triage targets, demangle symbols, recover crate namespaces, and map panic, unwind, async, and FFI paths.",
+      "description": "Triage Rust ELF, Mach-O, and PE binaries, demangle symbols, recover likely crate namespaces, trace runtime and FFI paths, and optionally export pseudocode with headless Ghidra.",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jingjing2222/rust-reverse-engineering-skill/HEAD/.codex-plugin/plugin.json",
@@ -4520,6 +4520,34 @@
       ]
     },
     {
+      "name": "FMXER",
+      "url": "https://github.com/andrea-magni/FMXER",
+      "owner": "andrea-magni",
+      "repo": "FMXER",
+      "description": "Agent skill teaching AI coding agents the FMXER declarative UI framework for Delphi FireMonkey: screens composed in code with named routes, a scaffold, layouts and Skia elements",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/andrea-magni/FMXER#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "formosa-humanizer",
+      "url": "https://github.com/nagameTW/formosa-humanizer",
+      "owner": "nagameTW",
+      "repo": "formosa-humanizer",
+      "description": "Agent skill that rewrites AI-generated Traditional Chinese prose, removing AI phrasing and mainland China terms across 49 patterns",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/nagameTW/formosa-humanizer#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "image-use",
       "url": "https://github.com/leeguooooo/image-use",
       "owner": "leeguooooo",
@@ -4641,6 +4669,34 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/HaiyiMei/scorestarling-plugins#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/mouadja02/skills",
+      "owner": "mouadja02",
+      "repo": "skills",
+      "description": "A curated collection of 799 agent skills across 36 categories, installable into Claude Code, Cursor, and other SKILL.md-aware clients",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/mouadja02/skills#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "UI Verify",
+      "url": "https://github.com/uiverify/uiverify",
+      "owner": "uiverify",
+      "repo": "uiverify",
+      "description": "Agent skills for visual testing: set up screenshot tests on your existing Storybook, Playwright or Vitest suite, check a UI change before pushing, and triage each build's diffs through the UI Verify MCP server",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/uiverify/uiverify#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -8396,6 +8452,19 @@
       ]
     },
     {
+      "name": "QuietOS",
+      "url": "https://github.com/jondean213-pixel/quietos-governor",
+      "owner": "jondean213-pixel",
+      "repo": "quietos-governor",
+      "description": "MIT-licensed runtime governor for AI agents where the brain proposes and QuietOS disposes: tiered allow/escalate/block decisions, approvals bound to the exact proposed call, cryptographically signed approval replies, and a public red-team proof log, built and red-teamed on a 4GB phone",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ]
+    },
+    {
       "name": "RagLeap",
       "url": "https://github.com/antonyrag/ragleap-core",
       "owner": "antonyrag",
@@ -9327,6 +9396,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/tracewayapp/traceway/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "triad",
+      "url": "https://github.com/rishabh1S/triad",
+      "owner": "rishabh1S",
+      "repo": "triad",
+      "description": "Claude Code plugin that splits a task between a read-only Planner, an Implementer and an independent Reviewer that sees only the approved plan and the diff, then offers to commit just the task's files",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rishabh1S/triad/HEAD/plugins/triad/.claude-plugin/plugin.json",
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
@@ -10306,16 +10389,6 @@
       ]
     },
     {
-      "name": "Datacircle",
-      "url": "https://github.com/waynehamadi/datacircle-plugin",
-      "owner": "waynehamadi",
-      "repo": "datacircle-plugin",
-      "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "installation_url": "https://github.com/waynehamadi/datacircle-plugin#readme"
-    },
-    {
       "name": "DataForge",
       "url": "https://github.com/ianktoo/data-forge",
       "owner": "ianktoo",
@@ -11186,6 +11259,34 @@
       "installation_url": "https://github.com/kerlenton/mcpsnoop#readme"
     },
     {
+      "name": "mcptoon",
+      "url": "https://github.com/activeing123/mcptoon",
+      "owner": "activeing123",
+      "repo": "mcptoon",
+      "description": "MCP server: one zero-dependency CLI that turns 255 MCP tool schemas into a 581-token name index and fetches the full schema only when a tool is called",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "installation_url": "https://github.com/activeing123/mcptoon#readme",
+      "ecosystems": [
+        "mcp"
+      ]
+    },
+    {
+      "name": "memory-mcp",
+      "url": "https://github.com/Donk338/memory-mcp",
+      "owner": "Donk338",
+      "repo": "memory-mcp",
+      "description": "MCP server: persistent agent memory with semantic recall served as a remote streamable-HTTP endpoint \u2014 your wallet address is your private namespace, no accounts or API keys, paid per call in USDC on Base via x402, with a free wallet-signed tier",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "installation_url": "https://github.com/Donk338/memory-mcp#readme",
+      "ecosystems": [
+        "mcp"
+      ]
+    },
+    {
       "name": "Mimi Seed",
       "url": "https://github.com/jeonghwanko/mimi-seed-sdk",
       "owner": "jeonghwanko",
@@ -11856,6 +11957,20 @@
       "platform": "codex",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Settled",
+      "url": "https://github.com/justinedwardvolmer/settled-skill",
+      "owner": "justinedwardvolmer",
+      "repo": "settled-skill",
+      "description": "Agent skill and Claude Code plugin that checks an x402 endpoint against independent evidence (live probes, paid test purchases, on-chain payments) before an agent pays it",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/justinedwardvolmer/settled-skill/HEAD/plugins/settled/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

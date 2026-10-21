@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-21",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -4170,7 +4170,7 @@
     {
       "name": "Rust Reverse Engineering",
       "displayName": "Rust Reverse Engineering",
-      "description": "Reverse engineer Rust binaries and libraries: triage targets, demangle symbols, recover crate namespaces, and map panic, unwind, async, and FFI paths.",
+      "description": "Triage Rust ELF, Mach-O, and PE binaries, demangle symbols, recover likely crate namespaces, trace runtime and FFI paths, and optionally export pseudocode with headless Ghidra.",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -4828,6 +4828,36 @@
       "installation_url": "https://github.com/f-o-x11/deed-page-skill#readme"
     },
     {
+      "name": "FMXER",
+      "displayName": "FMXER",
+      "description": "Agent skill teaching AI coding agents the FMXER declarative UI framework for Delphi FireMonkey: screens composed in code with named routes, a scaffold, layouts and Skia elements",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "andrea-magni",
+      "repo": "FMXER",
+      "url": "https://github.com/andrea-magni/FMXER",
+      "installation_url": "https://github.com/andrea-magni/FMXER#readme"
+    },
+    {
+      "name": "formosa-humanizer",
+      "displayName": "formosa-humanizer",
+      "description": "Agent skill that rewrites AI-generated Traditional Chinese prose, removing AI phrasing and mainland China terms across 49 patterns",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "nagameTW",
+      "repo": "formosa-humanizer",
+      "url": "https://github.com/nagameTW/formosa-humanizer",
+      "installation_url": "https://github.com/nagameTW/formosa-humanizer#readme"
+    },
+    {
       "name": "image-use",
       "displayName": "image-use",
       "description": "Agent skill and zero-dependency CLI for generating and editing images with existing ChatGPT or Gemini accounts, with reference images, reusable styles and looping animations without an API key",
@@ -4961,6 +4991,36 @@
       "repo": "scorestarling-plugins",
       "url": "https://github.com/HaiyiMei/scorestarling-plugins",
       "installation_url": "https://github.com/HaiyiMei/scorestarling-plugins#readme"
+    },
+    {
+      "name": "skills",
+      "displayName": "skills",
+      "description": "A curated collection of 799 agent skills across 36 categories, installable into Claude Code, Cursor, and other SKILL.md-aware clients",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "mouadja02",
+      "repo": "skills",
+      "url": "https://github.com/mouadja02/skills",
+      "installation_url": "https://github.com/mouadja02/skills#readme"
+    },
+    {
+      "name": "UI Verify",
+      "displayName": "UI Verify",
+      "description": "Agent skills for visual testing: set up screenshot tests on your existing Storybook, Playwright or Vitest suite, check a UI change before pushing, and triage each build's diffs through the UI Verify MCP server",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "uiverify",
+      "repo": "uiverify",
+      "url": "https://github.com/uiverify/uiverify",
+      "installation_url": "https://github.com/uiverify/uiverify#readme"
     },
     {
       "name": "ui-craft",
@@ -9009,6 +9069,20 @@
       "install_url": "https://raw.githubusercontent.com/wukonigcom/quanta-costa/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "QuietOS",
+      "displayName": "QuietOS",
+      "description": "MIT-licensed runtime governor for AI agents where the brain proposes and QuietOS disposes: tiered allow/escalate/block decisions, approvals bound to the exact proposed call, cryptographically signed approval replies, and a public red-team proof log, built and red-teamed on a 4GB phone",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ],
+      "owner": "jondean213-pixel",
+      "repo": "quietos-governor",
+      "url": "https://github.com/jondean213-pixel/quietos-governor"
+    },
+    {
       "name": "RagLeap",
       "displayName": "RagLeap",
       "description": "Self-hosted AI employee platform with 46 agents, Graph RAG on Neo4j, BYOK across providers, MIT",
@@ -10015,6 +10089,21 @@
       "repo": "traceway",
       "url": "https://github.com/tracewayapp/traceway",
       "install_url": "https://raw.githubusercontent.com/tracewayapp/traceway/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "triad",
+      "displayName": "triad",
+      "description": "Claude Code plugin that splits a task between a read-only Planner, an Implementer and an independent Reviewer that sees only the approved plan and the diff, then offers to commit just the task's files",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "rishabh1S",
+      "repo": "triad",
+      "url": "https://github.com/rishabh1S/triad",
+      "install_url": "https://raw.githubusercontent.com/rishabh1S/triad/HEAD/plugins/triad/.claude-plugin/plugin.json"
     },
     {
       "name": "trigger-tree",
@@ -11065,17 +11154,6 @@
       "install_url": "https://raw.githubusercontent.com/skulitom/cutbolt-plugin/HEAD/.claude-plugin/plugin.json"
     },
     {
-      "name": "Datacircle",
-      "displayName": "Datacircle",
-      "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "owner": "waynehamadi",
-      "repo": "datacircle-plugin",
-      "url": "https://github.com/waynehamadi/datacircle-plugin",
-      "installation_url": "https://github.com/waynehamadi/datacircle-plugin#readme"
-    },
-    {
       "name": "DataForge",
       "displayName": "DataForge",
       "description": "Turns any website into a quality-scored LLM fine-tuning dataset in JSONL, Parquet or on the Hugging Face Hub, with a CLI and a `dataforge mcp` server exposing tools to scrape, explore, validate, run and inspect a dataset build",
@@ -12014,6 +12092,36 @@
       "installation_url": "https://github.com/kerlenton/mcpsnoop#readme"
     },
     {
+      "name": "mcptoon",
+      "displayName": "mcptoon",
+      "description": "MCP server: one zero-dependency CLI that turns 255 MCP tool schemas into a 581-token name index and fetches the full schema only when a tool is called",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "activeing123",
+      "repo": "mcptoon",
+      "url": "https://github.com/activeing123/mcptoon",
+      "installation_url": "https://github.com/activeing123/mcptoon#readme"
+    },
+    {
+      "name": "memory-mcp",
+      "displayName": "memory-mcp",
+      "description": "MCP server: persistent agent memory with semantic recall served as a remote streamable-HTTP endpoint \u2014 your wallet address is your private namespace, no accounts or API keys, paid per call in USDC on Base via x402, with a free wallet-signed tier",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "Donk338",
+      "repo": "memory-mcp",
+      "url": "https://github.com/Donk338/memory-mcp",
+      "installation_url": "https://github.com/Donk338/memory-mcp#readme"
+    },
+    {
       "name": "Mimi Seed",
       "displayName": "Mimi Seed",
       "description": "App launch ops for Claude Code and Codex: a local MCP server and CLI that drive Google Play, App Store Connect, Firebase, AdMob, and more from local credentials",
@@ -12739,6 +12847,21 @@
       "repo": "sessioncost",
       "url": "https://github.com/kish21/sessioncost",
       "install_url": "https://raw.githubusercontent.com/kish21/sessioncost/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Settled",
+      "displayName": "Settled",
+      "description": "Agent skill and Claude Code plugin that checks an x402 endpoint against independent evidence (live probes, paid test purchases, on-chain payments) before an agent pays it",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "justinedwardvolmer",
+      "repo": "settled-skill",
+      "url": "https://github.com/justinedwardvolmer/settled-skill",
+      "install_url": "https://raw.githubusercontent.com/justinedwardvolmer/settled-skill/HEAD/plugins/settled/.claude-plugin/plugin.json"
     },
     {
       "name": "Shipvela",
